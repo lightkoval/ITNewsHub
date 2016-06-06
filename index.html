@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <title></title>
+    <link rel="stylesheet/less" type="text/css" href="less/style.less"/>
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/less.js/2.5.3/less.min.js"></script>
+    <script src="js/jquery-1.12.0.min.js"></script>
+    <script src="js/events.js"></script>
+</head>
+<body>
+<div class="body">
+    <div class="wrapper__header">
+        <header>
+            <div class="header__nav">
+                <div class="logo">
+                    <img src="img/logo.png" class="img__logo">
+
+                    <img src="img/Logo_mobile.png" class="img__logo-mobile"/>
+                    <a href="#">IT News Hub</a>
+                </div>
+
+                <div class="search">
+                    <form>
+                        <input type="search" placeholder="Search"/>
+                        <img src="img/search.png"/>
+                    </form>
+                </div>
+                <div class="search_mobile">
+                    <img src="img/search_mobile.png">
+                </div>
+
+                <ul class="main__menu">
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">NEWS HUB</a></li>
+                    <li><a href="#">CONTACTS</a></li>
+                </ul>
+                <a href="#" class="link__burger-menu"><img src="img/burger_menu.png"/></a>
+                <a href="#" class="close__burger-menu"><img src="img/close.png"/></a>
+            </div>
+
+
+        </header>
+    </div>
+
+    <div class="wrapper__main">
+
+        <main>
+            <div class="item show-item" data-id="0">
+                <img src="img/item_bg_1.jpg" class="open_modal">
+
+                <p>Risus Pharetra Tellus Mattis</p>
+            </div>
+            <div class="item show-item" data-id="1">
+                <img src="img/item_bg_2.jpg" class="open_modal">
+
+                <p>Kogi Cosby smeater ethical.</p>
+            </div>
+            <div class="item show-item" data-id="2">
+                <img src="img/item_bg.jpg" class="open_modal">
+
+                <p>Retro occupy organic.</p>
+            </div>
+            <div class="item show-item" data-id="3">
+                <img src="img/item_bg_4.jpg" class="open_modal">
+
+                <p>Banjo tote bad bicycle righ.</p>
+            </div>
+            <div class="item show-item" data-id="4">
+                <img src="img/item_bg_5.jpg" class="open_modal">
+
+                <p>Hella narwhal Cosby sweater.</p>
+            </div>
+            <div class="item show-item" data-id="5">
+                <img src="img/item_bg_6.jpg" class="open_modal">
+
+                <p>Banjo tote bad bicycle righ.</p>
+            </div>
+            <div class="item show-item" data-id="6">
+                <img src="img/item_bg_7.jpg" class="open_modal">
+
+                <p>Hella narwhal Cosby.</p>
+            </div>
+            <div class="item show-item" data-id="7">
+                <img src="img/item_bg.jpg" class="open_modal">
+
+                <p>Tousled food truck polaroid.</p>
+            </div>
+            <div class="item show-item" data-id="8">
+                <img src="img/item_bg_9.jpg" class="open_modal">
+
+                <p>Synth polaroid bitters chil.</p>
+            </div>
+            <div class="item show-item" data-id="9">
+                <img src="img/item_bg_10.jpg" class="open_modal">
+
+                <p>Portland ugh fashion axe He.</p>
+            </div>
+        </main>
+    </div>
+
+
+    <div class="wrapper__footer">
+        <footer>
+
+            <div class="footer__social-menu">
+                <div class="footer__menu-title">SOCIAL ACTIVITY</div>
+                <div class="social-menu">
+                    <a href="#"><img src="img/Twitter.png"></a>
+                    <a href="#"><img src="img/Pinterest.png"></a>
+                    <a href="#"><img src="img/YouTube.png"></a>
+                    <a href="#"><img src="img/Facebook.png"></a>
+                    <a href="#"><img src="img/Google%20+.png"></a>
+                    <a href="#"><img src="img/Instagram.png"></a>
+                </div>
+            </div>
+
+            <div class="footer__menu">
+                <div class="footer__menu-title">HELPFUL LINKS</div>
+                <ul>
+                    <li><a href="#">Cras quuis nulla com</a></li>
+                    <li><a href="#">Vestibulum rutrum</a></li>
+                    <li><a href="#">Lorem ipsum dolor</a></li>
+                    <li><a href="#">Nam dapibus nisl vi</a></li>
+                    <li><a href="#">Vestibulum rutrum</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__menu">
+                <div class="footer__menu-title">SUCCESS STEPS</div>
+                <ul>
+                    <li>1. Kogi Cosby sweater.</li>
+                    <li>2. Retro occupy org.</li>
+                    <li>3. Keytar McSweeney.</li>
+                    <li>4. Keytar McSweeney's.</li>
+                    <li>5. Keytar McSweeney.</li>
+                </ul>
+            </div>
+
+            <div class="footer__menu">
+                <div class="footer__menu-title">CONTACTS</div>
+                <ul>
+                    <li><img src="img/location_contacts.png">Glendale, Ohio</li>
+                    <li><a href="#">juan.kelly@example.com</a></li>
+                    <li>(508)-639-5488</li>
+                    <li>(103)-409-4107</li>
+                    <li>Juan Kelly</li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+
+</div>
+<div id="modal1" class="modal">
+    <!--<div class="modal__header">
+        <span class="modal_close"><img src="img/close.png"></span>
+    </div>
+    <div class="modal__item">
+        <div class="item__title">Banjo tote bad bicycle righ.</div>
+        <img src="img/item_bg.jpg">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam varius non ex et efficitur. Quisque feugiat
+            pulvinar blandit. Donec feugiat, libero vel facilisis porta, odio lacus eleifend massa,lputate aliquet.
+            Vivamus vestibulum nunc orci,
+            eu ornare magna rutrum eget. Mauris efficitur euismod est, malesuada fringilla libero commodo id. In id
+            vulputate ligula, vitae efficitur mi. Vivamus venenatis nec enim quis finibus.</p>
+    </div>-->
+</div>
+
+<div id="overlay"></div>
+</body>
+</html>
